@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.fftech.info/Checkout/form-validator.git"
+    "url": "git@github.com:ricardojoaomestre/js-vanilla-form-validation.git"
   },
   "keywords": [
     "javascript",
