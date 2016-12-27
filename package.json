@@ -1,0 +1,23 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "description": "A javascript vanilla form validator plugin",
+  "main": "formValidator.js",
+  "scripts": {
+    "build": "npm i&&node node_modules/.bin/r.js -o build.js optimize=none&&node node_modules/.bin/r.js -o cssIn=src/css/formValidator.css out=dist/formValidator.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.fftech.info/Checkout/form-validator.git"
+  },
+  "keywords": [
+    "javascript",
+    "forms",
+    "validations"
+  ],
+  "author": "Ana Sampaio, Ricardo Mestre",
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "^2.3.2"
+  }
+}
