@@ -1,10 +1,10 @@
 {
   "name": "js-vanilla-form-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A javascript vanilla form validator plugin",
   "main": "formValidator.js",
   "scripts": {
-    "build": "npm i&&node node_modules/.bin/r.js -o build.js optimize=none&&node node_modules/.bin/r.js -o cssIn=src/css/formValidator.css out=dist/formValidator.css"
+    "build": "npm i&&node node_modules/.bin/r.js -o build.js&&node node_modules/.bin/r.js -o cssIn=src/css/formValidator.css out=dist/formValidator.css"
   },
   "repository": {
     "type": "git",
