@@ -1,0 +1,29 @@
+form input.dirty.visited:valid {
+	border-bottom: 1px solid #3eb46e;
+    transition: all 0.3s ease-in-out;
+}
+[data-edit-mode='true'] form.submitted input:valid {
+    border-bottom: 1px solid #3eb46e;
+}
+[data-edit-mode='true'] form.submitted input[value=""]:not(.dirty):not(visited):valid {
+    border-bottom: 1px solid #ddd;
+}
+form.submitted input:invalid {
+	border-bottom: 1px solid #fd4f57;
+    transition: all 0.3s ease-in-out;
+}
+form input.dirty.visited:invalid,
+form input.virtually_dirty:invalid {
+	border-bottom: 1px solid #fd4f57;
+    transition: all 0.3s ease-in-out;
+}
+form input:invalid {
+    box-shadow: none; 
+    outline: 0;       
+}
+form input.dirty.visited:valid + span.form-validator_error {
+    display: none;
+}
+span.form-validator_error.hide {
+    display: none;
+}
