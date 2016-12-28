@@ -1,5 +1,5 @@
 {
-  "name": "form-validator",
+  "name": "js-vanilla-form-validator",
   "version": "1.0.0",
   "description": "A javascript vanilla form validator plugin",
   "main": "formValidator.js",
