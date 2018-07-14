@@ -77,7 +77,7 @@ We can also add **custom validations** to the inputs. The validation function mu
         return (value === "123");
     }
 
-    this.validator.addCustomValidation(input, 'blur', myCustomValidation);
+    this.validator.addCustomValidation(input, myCustomValidation, 'blur');
 
 ```
 
