@@ -94,7 +94,7 @@ Simple **dependency validation** is also possible with this plugin. Imagine you 
     ...
     var form = document.getElementById('myForm');
     var firstName = form.querySelector('input[name=first_name]');
-    var lastName = form.querySelect('input[name=last_name]');
+    var lastName = form.querySelector('input[name=last_name]');
 
     var validator = new FormValidator(form);
 
